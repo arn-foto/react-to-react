@@ -1,5 +1,5 @@
 class Board extends React.Component {
 	renderSquare(i) {
-		return <Square value={i} />;
+		return <buttton className="square">{this.props.value}</buttton>;
 	}
 }
