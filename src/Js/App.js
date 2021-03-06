@@ -6,7 +6,7 @@ function App() {
 			<h1>
 				React is a declarative, efficient, and flexible JavaScript library for
 				building user interfaces. It lets you compose complex UIs from small and
-				isolated pieces of code called “components”....duh
+				isolated pieces of code called “components”...duh
 			</h1>
 		</div>
 	);
