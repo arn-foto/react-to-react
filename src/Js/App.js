@@ -1,15 +1,14 @@
 import "../Css/App.css";
+import React, { Component } from "react";
 
-function App() {
-	return (
-		<div className="App">
-			<h2>
-				React is a declarative, efficient, and flexible JavaScript library for
-				building user interfaces. It lets you compose complex UIs from small and
-				isolated pieces of code called “components”...duh
-			</h2>
-		</div>
-	);
+class App extends Component {
+	render() {
+		return (
+			<div className="App">
+				<h1>Reps</h1>
+			</div>
+		);
+	}
 }
 
 export default App;
