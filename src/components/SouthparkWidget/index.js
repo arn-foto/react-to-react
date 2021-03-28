@@ -1,6 +1,7 @@
 import React from "react";
-import spLink from "../../Js/services";
 import axios from "axios";
+import { SpContainer } from "./styles";
+import { spLink } from "../../Js/services";
 
 function SouthparkWidget() {
 	axios
@@ -8,7 +9,7 @@ function SouthparkWidget() {
 		.then((res) => console.log(res))
 		.catch((error) => console.log(error));
 
-	return <div>South Park API</div>;
+	return <SpContainer>South Park API</SpContainer>;
 }
 
 export default SouthparkWidget;
