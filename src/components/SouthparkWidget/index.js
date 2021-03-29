@@ -4,12 +4,19 @@ import { SpContainer } from "./styles";
 import { spLink } from "../../Js/services";
 
 function SouthparkWidget() {
-	axios
-		.get(spLink)
-		.then((res) => console.log(res))
-		.catch((error) => console.log(error));
+	const getChar = () => {
+		axios
+			.get(spLink)
+			.then((res) => console.log(res))
+			.catch((error) => console.log(error));
+	};
 
-	return <SpContainer>South Park API</SpContainer>;
+	return (
+		<SpContainer>
+			South Park API
+			<button onClick={getChar}>press</button>
+		</SpContainer>
+	);
 }
 
 export default SouthparkWidget;
