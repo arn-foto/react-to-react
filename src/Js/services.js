@@ -1,3 +1,3 @@
-const spLink = "https://spapi.dev/api/characters";
+const spLink = "https://official-joke-api.appspot.com/random_joke";
 
 export { spLink };
