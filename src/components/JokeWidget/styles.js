@@ -5,6 +5,7 @@ const SpContainer = styled.div`
 	justify-content: center;
 	flex-direction: column;
 	text-align: center;
+	width: 50%;
 `;
 
 export { SpContainer };

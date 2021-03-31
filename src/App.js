@@ -1,10 +1,10 @@
 import React from "react";
-import SouthparkWidget from "../src/components/SouthparkWidget";
+import JokeWidget from "./components/JokeWidget";
 
 function App() {
 	return (
 		<div className="App">
-			<SouthparkWidget />
+			<JokeWidget />
 		</div>
 	);
 }
