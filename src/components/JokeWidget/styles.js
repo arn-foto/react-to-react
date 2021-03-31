@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const SpContainer = styled.div`
+const JokeContainer = styled.div`
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -8,4 +8,4 @@ const SpContainer = styled.div`
 	width: 50%;
 `;
 
-export { SpContainer };
+export { JokeContainer };
