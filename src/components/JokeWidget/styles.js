@@ -1,5 +1,10 @@
 import styled from "styled-components";
 
+const AppContainer = styled.div`
+	display: flex;
+	justify-content: center;
+`;
+
 const JokeContainer = styled.div`
 	display: flex;
 	justify-content: center;
@@ -8,4 +13,4 @@ const JokeContainer = styled.div`
 	width: 50%;
 `;
 
-export { JokeContainer };
+export { JokeContainer, AppContainer };

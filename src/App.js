@@ -1,11 +1,12 @@
 import React from "react";
 import JokeWidget from "./components/JokeWidget";
+import AppContainer from "./components/JokeWidget";
 
 function App() {
 	return (
-		<div className="App">
+		<AppContainer>
 			<JokeWidget />
-		</div>
+		</AppContainer>
 	);
 }
 

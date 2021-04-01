@@ -1,3 +1,3 @@
-const spLink = "https://official-joke-api.appspot.com/random_joke";
+const jokeLink = "https://official-joke-api.appspot.com/random_joke";
 
-export { spLink };
+export { jokeLink };

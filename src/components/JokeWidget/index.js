@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { JokeContainer } from "./styles";
-import { spLink } from "../../Js/services";
+import { jokeLink } from "../../Js/services";
 
 function SouthparkWidget() {
 	const [joke, setJoke] = useState("");
@@ -9,7 +9,7 @@ function SouthparkWidget() {
 
 	const getJoke = () => {
 		axios
-			.get(spLink)
+			.get(jokeLink)
 			.then((res) => {
 				setJoke(
 					res.data.type +
